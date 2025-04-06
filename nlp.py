@@ -7,7 +7,6 @@ class Aurora3:
         df['ratio'] = [round(random.uniform(0.1, 0.3), 2) for _ in range(len(df))]
         return df
 
-
 import pandas as pd
 import random
 
